@@ -1,0 +1,17 @@
+Download and install MGiza++ from:
+http://www.kyloo.net/software/doku.php/mgiza:overview
+
+Provide the address of mgizapp/scripts and mgizapp/bin folders in the addresses.keep file (don't put space around =)
+provide the address of AMR and English files in the addresses.keep file (don't put space around =) (don't put your files in the current folder)
+
+AMR (or English) file should have one AMR (or English) per line.
+
+run run.sh
+
+Outputs:
+AMR_Aligned.keep : Aligned English/AMR pairs (Note that everything is in lowercase here)
+Alignments.keep : just the alignments
+
+requirements:
+you need MGiza++ installed
+you need g++ installed

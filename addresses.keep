@@ -1,0 +1,5 @@
+AMR=eval/amr_train_all.txt
+ENG=eval/en_train_all.txt
+MGIZA_SCRIPT=../../mgiza/mgizapp/scripts
+MGIZA_BIN=../../mgiza/mgizapp/bin/
+
