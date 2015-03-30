@@ -4,13 +4,9 @@ String to Semantic Graph Alignment
 DESCRIPTION
 -----------
 
-Code used for my undergrad thesis on String to Semantic Graph Alignment, for the PDF see [here] [1].
+Code used for my undergrad thesis on String to Semantic Graph Alignment (for the PDF see [here] [1]).
 
 Most of the code is adapted from ["Aligning English Strings with Abstract Meaning Representation Graphs" (Pourdamghani et al., 2014)] [2].
-
-AUTHOR
-------
-Melanie Tosik, tosik@uni-potsdam.de
 
 [1]: http://www.melanietosik.com/files/thesis.pdf
 [2]: http://www.isi.edu/~damghani/
@@ -40,4 +36,8 @@ Requirements
 ------------
 
 You need g++ and MGIZA++ installed.
+
+AUTHOR
+------
+Melanie Tosik, tosik@uni-potsdam.de
 
