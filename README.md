@@ -4,8 +4,9 @@ String to Semantic Graph Alignment
 DESCRIPTION
 -----------
 
-Code is used for my undergrad thesis on String to Semantic Graph Alignment, see PDF [here] [1].
-Most of the code is adapted from ["Aligning English Strings with Abstract Meaning Representation Graphs" (Pourdamghani et al., 2014)] [2]
+Code used for my undergrad thesis on String to Semantic Graph Alignment, for the PDF see [here] [1].
+
+Most of the code is adapted from ["Aligning English Strings with Abstract Meaning Representation Graphs" (Pourdamghani et al., 2014)] [2].
 
 AUTHOR
 ------
@@ -17,7 +18,7 @@ Melanie Tosik, tosik@uni-potsdam.de
 README
 -------------
 
-Download and install MGiza++ from [here] [3]
+Download and install MGIZA++ from [here] [3].
 
 [3]: http://www.kyloo.net/software/doku.php/mgiza:overview
 
@@ -32,12 +33,11 @@ Output
 ------
 
 AMR_Aligned.keep - Aligned English/AMR pairs.
+
 Alignments.keep - Just the alignments.
 
 Requirements
 ------------
 
-You need MGIZA++ installed.
-You need g++ installed.
-
+You need g++ and MGIZA++ installed.
 
