@@ -21,7 +21,7 @@ Download and install MGIZA++ from [here] [3].
 Provide the address of mgizapp/scripts and mgizapp/bin folders in the addresses.keep file.
 
 Provide the address of AMR and English files in the addresses.keep file, add .keep or put them in a different directory.
-The data files must have one linearized AMR or one sentencee English per line.
+The data files must have one linearized AMR or one English sentence per line.
 
 Run script run.sh.
 
