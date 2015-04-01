@@ -18,9 +18,9 @@ Download and install MGIZA++ from [here] [3].
 
 [3]: http://www.kyloo.net/software/doku.php/mgiza:overview
 
-Download the AMR bank from here [here] [4].
+Download the AMR bank from [here] [4].
 
-[3]: https://catalog.ldc.upenn.edu/LDC2014T12
+[4]: https://catalog.ldc.upenn.edu/LDC2014T12
 
 Provide the address of mgizapp/scripts and mgizapp/bin folders in the addresses.keep file.
 
