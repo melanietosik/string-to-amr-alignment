@@ -4,42 +4,35 @@ String to Semantic Graph Alignment
 DESCRIPTION
 -----------
 
-Code used for my undergrad thesis on String to Semantic Graph Alignment (for the PDF see [here] [1]).
+Code used for my undergrad thesis on String to Semantic Graph Alignment (for the PDF [see here](http://www.melanietosik.com/files/thesis.pdf)).
 
-Most of the code is adapted from ["Aligning English Strings with Abstract Meaning Representation Graphs" (Pourdamghani et al., 2014)] [2].
-
-[1]: http://www.melanietosik.com/files/thesis.pdf
-[2]: http://www.isi.edu/~damghani/
+Most of the code is adapted from ["Aligning English Strings with Abstract Meaning Representation Graphs"](https://www.isi.edu/natural-language/mt/amr_eng_align.pdf) (Pourdamghani et al., 2014).
 
 README
 -------------
 
-Download and install MGIZA++ from [here] [3].
+Download and install [MGIZA++](http://www.kyloo.net/software/doku.php/mgiza:overview).
 
-[3]: http://www.kyloo.net/software/doku.php/mgiza:overview
+Download the [AMR bank](https://catalog.ldc.upenn.edu/LDC2014T12).
 
-Download the AMR bank from [here] [4].
+Provide the address of mgizapp/scripts and mgizapp/bin folders in the `addresses.keep` file.
 
-[4]: https://catalog.ldc.upenn.edu/LDC2014T12
-
-Provide the address of mgizapp/scripts and mgizapp/bin folders in the addresses.keep file.
-
-Provide the address of AMR and English files in the addresses.keep file, add .keep or put them in a different directory.
+Provide the address of AMR and English files in the `addresses.keep` file, add `.keep` or put them in a different directory.
 The data files must have one linearized AMR or one English sentence per line.
 
-Run script run.sh.
+Run script `run.sh`.
 
 Output
 ------
 
-AMR_Aligned.keep - Aligned English/AMR pairs.
+`AMR_Aligned.keep` - Aligned English/AMR pairs.
 
-Alignments.keep - Just the alignments.
+`Alignments.keep` - Just the alignments.
 
 Requirements
 ------------
 
-You need g++ and MGIZA++ installed.
+You need `g++` and `MGIZA++` installed.
 
 AUTHOR
 ------
